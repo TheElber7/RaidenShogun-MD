@@ -22,14 +22,14 @@ const rl = createInterface(process.stdin, process.stdout)
 //const app = express()
 //const port = process.env.PORT || 8080;
 
-say('Gata\nBot\nMD', {
+say('Raiden\nShogun\nMD', {
 font: 'chrome',
 align: 'center',
-gradient: ['red', 'magenta']})
-say(`Por GataDios`, {
+gradient: ['purple', 'magenta']})
+say(`Por TheElber7`, {
 font: 'console',
 align: 'center',
-gradient: ['red', 'magenta']})
+gradient: ['purple', 'magenta']})
 
 var isRunning = false
 
@@ -41,7 +41,7 @@ let args = [join(__dirname, file), ...process.argv.slice(2)]
 say([process.argv[0], ...args].join(' '), {
 font: 'console',
 align: 'center',
-gradient: ['red', 'magenta']
+gradient: ['purple', 'magenta']
 })
 setupMaster({exec: args[0], args: args.slice(1),
 })
