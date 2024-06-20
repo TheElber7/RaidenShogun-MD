@@ -86,23 +86,24 @@ console.log(chalk.yellow(`╭${lineM}
 ┊${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
 ┊${chalk.blueBright('┊')} ${chalk.blue.bold(`🟢INFORMAÇÃO :`)}
 ┊${chalk.blueBright('┊')} ${chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
-┊${chalk.blueBright('┊')}${chalk.cyan(`💚 Nombre: ${packageJsonObj.name}`)}
-┊${chalk.blueBright('┊')}${chalk.cyan(`𓃠 Versión: ${packageJsonObj.version}`)}
-┊${chalk.blueBright('┊')}${chalk.cyan(`💜 Descripción: ${packageJsonObj.description}`)}
-┊${chalk.blueBright('┊')}${chalk.cyan(`😺 Project Author: ${packageJsonObj.author.name} (@gata_dios)`)}
+┊${chalk.blueBright('┊')}${chalk.cyan(`💚 Nome: ${packageJsonObj.name}`)}
+┊${chalk.blueBright('┊')}${chalk.cyan(`𓃠 Versão: ${packageJsonObj.version}`)}
+┊${chalk.blueBright('┊')}${chalk.cyan(`💜 Descrição: ${packageJsonObj.description}`)}
+┊${chalk.blueBright('┊')}${chalk.cyan(`😺 Autor do Projeto: ${packageJsonObj.author.name} (@th7.2000)`)}
 ┊${chalk.blueBright('┊')}${chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
-┊${chalk.blueBright('┊')}${chalk.yellow(`💜 Colaboradores:`)}
+┊${chalk.blueBright('┊')}${chalk.yellow(`💜 Créditos:`)}
+┊${chalk.blueBright('┊')}${chalk.yellow(`• gata_dios (GataNina-Li)`)}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`• elrebelde21 (Mario ofc)`)}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`• KatashiFukushima (Katashi)`)}
 ┊${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ┊${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊${chalk.blueBright('┊')}${chalk.cyan(`⏰ Hora Actual :`)}
+┊${chalk.blueBright('┊')}${chalk.cyan(`⏰ Horário :`)}
 ┊${chalk.blueBright('┊')}${chalk.cyan(`${currentTime}`)}
 ┊${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ╰${lineM}`));
 setInterval(() => {}, 1000)
 } catch (err) {
-console.error(chalk.red(`❌ No se pudo leer el archivo package.json: ${err}`))
+console.error(chalk.red(`❌ Não consigo ler o arquivo package.json: ${err}`))
 }
 
 let opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
