@@ -25,11 +25,11 @@ const rl = createInterface(process.stdin, process.stdout)
 say('Raiden\nShogun\nMD', {
 font: 'chrome',
 align: 'center',
-gradient: ['#7900CF', 'black']})
+gradient: ['magenta', 'red']})
 say(`Por TheElber7`, {
 font: 'console',
 align: 'center',
-gradient: ['#7900CF', 'black']})
+gradient: ['magenta', 'red']})
 
 var isRunning = false
 
@@ -41,7 +41,7 @@ let args = [join(__dirname, file), ...process.argv.slice(2)]
 say([process.argv[0], ...args].join(' '), {
 font: 'console',
 align: 'center',
-gradient: ['#7900CF', 'black']
+gradient: ['magenta', 'red']
 })
 setupMaster({exec: args[0], args: args.slice(1),
 })
@@ -60,7 +60,7 @@ break
 
 p.on('exit', (_, code) => {
 isRunning = false
-console.error('⚠️ ERROR ⚠️ >> ', code)
+console.error('⚠️ ERRO! ⚠️ >> ', code)
 start('main.js'); //
 
 if (code === 0) return
@@ -80,11 +80,11 @@ let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
 console.log(chalk.yellow(`╭${lineM}
 ┊${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`🖥️ ${os.type()}, ${os.release()} - ${os.arch()}`)}
-┊${chalk.blueBright('┊')}${chalk.yellow(`💾 Total RAM: ${ramInGB.toFixed(2)} GB`)}
-┊${chalk.blueBright('┊')}${chalk.yellow(`💽 Free RAM: ${freeRamInGB.toFixed(2)} GB`)}
+┊${chalk.blueBright('┊')}${chalk.yellow(`💾 RAM Total: ${ramInGB.toFixed(2)} GB`)}
+┊${chalk.blueBright('┊')}${chalk.yellow(`💽 RAM Disponível: ${freeRamInGB.toFixed(2)} GB`)}
 ┊${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
 ┊${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊${chalk.blueBright('┊')} ${chalk.blue.bold(`🟢INFORMACIÓN :`)}
+┊${chalk.blueBright('┊')} ${chalk.blue.bold(`🟢INFORMAÇÃO :`)}
 ┊${chalk.blueBright('┊')} ${chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ┊${chalk.blueBright('┊')}${chalk.cyan(`💚 Nombre: ${packageJsonObj.name}`)}
 ┊${chalk.blueBright('┊')}${chalk.cyan(`𓃠 Versión: ${packageJsonObj.version}`)}
