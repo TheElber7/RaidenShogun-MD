@@ -25,11 +25,11 @@ const rl = createInterface(process.stdin, process.stdout)
 say('Raiden\nShogun\nMD', {
 font: 'chrome',
 align: 'center',
-gradient: ['#7900CF', 'magenta']})
+gradient: ['#7900CF', 'black']})
 say(`Por TheElber7`, {
 font: 'console',
 align: 'center',
-gradient: ['#7900CF', 'magenta']})
+gradient: ['#7900CF', 'black']})
 
 var isRunning = false
 
@@ -41,7 +41,7 @@ let args = [join(__dirname, file), ...process.argv.slice(2)]
 say([process.argv[0], ...args].join(' '), {
 font: 'console',
 align: 'center',
-gradient: ['#7900CF', 'magenta']
+gradient: ['#7900CF', 'black']
 })
 setupMaster({exec: args[0], args: args.slice(1),
 })
