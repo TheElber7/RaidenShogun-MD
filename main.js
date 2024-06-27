@@ -314,7 +314,7 @@ return await connectionUpdate(authFile);
 
 const bots = await Promise.all(botPromises);
 global.conns = bots.filter(Boolean);
-console.log(chalk.bold.greenBright(`✅ TODOS LOS SUB-BOTS SE HAN INICIADO CORRECTAMENTE`))
+console.log(chalk.bold.greenBright(`✅ TODOS OS SUB-BOTS INICIADOS COM SUCESSO!`))
 }
 
 (async () => {
@@ -324,11 +324,11 @@ const mainBotAuthFile = 'GataBotSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`✅ BOT PRINCIPAL INICIANDO CORRECTAMENTE`))
+console.log(chalk.bold.greenBright(`✅ BOT PRINCIPAL INICIADO COM SUCESSO!`))
 
 await connectSubBots();
 } catch (error) {
-console.error(chalk.bold.cyanBright(`❌ OCURRIÓ UN ERROR AL INICIAR EL BOT PRINCIPAL: `, error))
+console.error(chalk.bold.cyanBright(`❌ OCORREU UM ERRO AO INICIAR O BOT PRINCIPAL: `, error))
 }
 })();
 
@@ -410,9 +410,9 @@ global.reload = async (_ev, filename) => {
 if (pluginFilter(filename)) {
 const dir = global.__filename(join(pluginFolder, filename), true)
 if (filename in global.plugins) {
-if (existsSync(dir)) conn.logger.info(` SE ACTULIZADO - '${filename}' CON ÉXITO`)
+if (existsSync(dir)) conn.logger.info(`ATUALIZOU O - '${filename}' COM SUCESSO!`)
 else {
-conn.logger.warn(`SE ELIMINO UN ARCHIVO : '${filename}'`)
+conn.logger.warn(`ARQUIVO DELETADO : '${filename}'`)
 return delete global.plugins[filename];
 }
 } else conn.logger.info(`Foram detectados novos plugins : '${filename}'`)
