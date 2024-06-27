@@ -162,9 +162,9 @@ global.eg = '╰⊱💚⊱ *_Sucesso | Success_* ⊱💚⊱╮\n\n'
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
-global.igfg = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
-global.nomorown = "593993684821"
+global.wm = "ℝ𝕒𝕚𝕕𝕖𝕟 𝕊𝕙𝕠𝕘𝕦𝕟-𝕄𝔻 : 𝗧𝗵𝗲𝗘𝗹𝗯𝗲𝗿𝟳"
+global.igfg = "ℝ𝕒𝕚𝕕𝕖𝕟 𝕊𝕙𝕠𝕘𝕦𝕟-𝕄𝔻"
+global.nomorown = "558381844965"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
