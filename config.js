@@ -194,8 +194,8 @@ global.htka = "*☪ ••••̩̩͙⊰•⭑*"
 global.comienzo = "• • ◕◕════"
 global.fin = " • •"
 
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; //Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;//America/Los_Angeles
+global.botdate = `⫹⫺ Data :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; //Asia/Jakarta
+global.bottime = `*HORA* : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;//America/Los_Angeles
 global.fgif = {
 key: {
 participant : '0@s.whatsapp.net'},
@@ -441,7 +441,7 @@ global.tk = accounts.tiktok
 global.ths = accounts.threads
 global.paypal = accounts.paypal
 global.asistencia = others.assistance_num
-global.bot = 'wa.me/50238024328'
+global.bot = 'wa.me/558381844965'
 global.cuentas = accounts.all
 
 global.canal1 = channels.channel1
