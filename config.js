@@ -124,7 +124,7 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = 'BR' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = `╭ *_Raiden Shogun-MD_* \n ╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
+global.packname = `╭ *_Raiden Shogun-MD_* \n╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
 global.author = ` ╭ *TheElber7*\n ╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
