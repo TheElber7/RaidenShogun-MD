@@ -160,9 +160,9 @@ global.eg = '╰⊱💚⊱ *_SUCESSO | SUCCESS_* ⊱💚⊱╮\n\n'
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
-global.igfg = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
-global.nomorown = "593993684821"
+global.wm = "ℝ𝕒𝕚𝕕𝕖𝕟 𝕊𝕙𝕠𝕘𝕦𝕟-𝕄𝔻 : 𝙏𝙝𝙚𝙀𝙡𝙗𝙚𝙧𝟳"
+global.igfg = "ℝ𝕒𝕚𝕕𝕖𝕟 𝕊𝕙𝕠𝕘𝕦𝕟-𝕄𝔻"
+global.nomorown = "5511978441497"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -192,8 +192,8 @@ global.htka = "*☪ ••••̩̩͙⊰•⭑*"
 global.comienzo = "• • ◕◕════"
 global.fin = " • •"
 
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; //Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;//America/Los_Angeles
+global.botdate = `⫹⫺ Data :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; //Asia/Jakarta
+global.bottime = `*_HORA_* : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;//America/Los_Angeles
 global.fgif = {
 key: {
 participant : '0@s.whatsapp.net'},
