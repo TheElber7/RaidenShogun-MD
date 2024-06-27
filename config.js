@@ -431,22 +431,12 @@ const response = await fetch('https://raw.githubusercontent.com/TheElber7/Raiden
 const data = await response.json() 
 let { accounts, channels, groups, collaboration, sponsors, others } = data.info
 
-global.yt = accounts.youTube
-global.yt2 = others.yt_vid
-global.ig = accounts.instagram
 global.md = accounts.gatabot_md
-global.fb = accounts.facebook
-global.tk = accounts.tiktok
-global.ths = accounts.threads
-global.paypal = accounts.paypal
 global.asistencia = others.assistance_num
-global.bot = 'wa.me/50238024328'
+global.bot = 'wa.me/5511978441497'
 global.cuentas = accounts.all
 
 global.canal1 = channels.channel1
-global.canal2 = channels.channel2
-global.canal3 = channels.channel3
-global.canal4 = channels.channel4
 
 global.soporteGB = others.group_support
 global.grupo1 = groups.group1
@@ -456,13 +446,5 @@ global.grupo4 = groups.group4
 global.grupo5 = groups.group5
 global.grupo6 = groups.group6
 
-global.grupo_collab1 = collaboration.group1
-global.grupo_collab2 = collaboration.group2
-global.grupo_collab3 = collaboration.group3
-global.grupo_collab4 = collaboration.group4
-
-global.patrocinador1 = sponsors.boxmine
-global.patrocinador2 = sponsors.cafirexos
-global.patrocinador3 = sponsors.vortexus
-global.patrocinador4 = sponsors.asif
+global.patrocinador1 = sponsors.botzinho
 }
