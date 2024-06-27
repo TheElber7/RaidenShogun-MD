@@ -13,7 +13,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["5511978441497", '*_Dono_*', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+["5511978441497", '*_Dono_*', true], //ℝ𝕒𝕚𝕕𝕖𝕟 𝕊𝕙𝕠𝕘𝕦𝕟-𝕄𝔻 💖🐈
 ["558381844965"], 
 ["558381445595"], 
 ["5511997466747"],
@@ -123,16 +123,16 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = `╭ ℝ𝕒𝕚𝕕𝕖𝕟 𝕊𝕙𝕠𝕘𝕦𝕟-𝕄𝔻\n┃\n╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
-global.author = ` ╭ 𝗧𝗵𝗲𝗘𝗹𝗯𝗲𝗿𝟳\n ┃\n ╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
+global.packname = `╭ ℝ𝕒𝕚𝕕𝕖𝕟 𝕊𝕙𝕠𝕘𝕦𝕟-𝕄𝔻\n┃\n╰━━━━━━━━•` //"ℝ𝕒𝕚𝕕𝕖𝕟 𝕊𝕙𝕠𝕘𝕦𝕟-𝕄𝔻 🐈"
+global.author = ` ╭ 𝗧𝗵𝗲𝗘𝗹𝗯𝗲𝗿𝟳\n ┃\n ╰━━━━━━━━•` //"𝙏𝙝𝙚𝙀𝙡𝙗𝙚𝙧𝟳"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
 // MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
-global.vs = "1.7.0"
+global.vs = "2.0.0"
 global.vsJB = "3.0 (Beta)"
-global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
+global.gt = "ℝ𝕒𝕚𝕕𝕖𝕟 𝕊𝕙𝕠𝕘𝕦𝕟-𝕄𝔻"
 
 fetchDataAndProcess().catch(error => console.error('Ocurrió un error:', error))
 
