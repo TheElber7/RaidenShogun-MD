@@ -131,9 +131,9 @@ global.author = ` ╭ *TheElber7*\n ┃\n ┃ » 𝙶𝚒𝚝𝙷𝚞𝚋:\n ┃
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
 // MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
-global.vs = "1.7.0"
+global.vs = "2.0.0"
 global.vsJB = "3.0 (Beta)"
-global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
+global.gt = "ℝ𝕒𝕚𝕕𝕖𝕟 𝕊𝕙𝕠𝕘𝕦𝕟-𝕄𝔻"
 
 fetchDataAndProcess().catch(error => console.error('Ocurrió un error:', error))
 
